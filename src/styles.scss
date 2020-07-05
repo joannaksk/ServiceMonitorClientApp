@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'monitor.theme';
+
+html,
+body {
+  height: 100%;
+  background-color: #ededed;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* Theme */
+/* CSS */
+--carolina-blue: hsla(200, 99%, 90%, 1);
+--prussian-blue: hsla(209, 69%, 24%, 1);
+--light-cyan: hsla(187, 21%, 100%, 1);
+--yellow-ryb: hsla(64, 89%, 100%, 1);
+--independence: hsla(248, 15%, 42%, 1);
+
+/* SCSS HEX */
+$carolina-blue: #039be5ff;
+$prussian-blue: #13293dff;
+$light-cyan: #c9f9ffff;
+$yellow-ryb: #f0ff1dff;
+$independence: #5e5c6cff;
+
+/* SCSS HSL */
+$carolina-blue: hsla(200, 99%, 90%, 1);
+$prussian-blue: hsla(209, 69%, 24%, 1);
+$light-cyan: hsla(187, 21%, 100%, 1);
+$yellow-ryb: hsla(64, 89%, 100%, 1);
+$independence: hsla(248, 15%, 42%, 1);
+
+/* SCSS RGB */
+$carolina-blue: rgba(3, 155, 229, 1);
+$prussian-blue: rgba(19, 41, 61, 1);
+$light-cyan: rgba(201, 249, 255, 1);
+$yellow-ryb: rgba(240, 255, 29, 1);
+$independence: rgba(94, 92, 108, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #039be5ff, #13293dff, #c9f9ffff, #f0ff1dff, #5e5c6cff);
+$gradient-right: linear-gradient(90deg, #039be5ff, #13293dff, #c9f9ffff, #f0ff1dff, #5e5c6cff);
+$gradient-bottom: linear-gradient(180deg, #039be5ff, #13293dff, #c9f9ffff, #f0ff1dff, #5e5c6cff);
+$gradient-left: linear-gradient(270deg, #039be5ff, #13293dff, #c9f9ffff, #f0ff1dff, #5e5c6cff);
+$gradient-top-right: linear-gradient(45deg, #039be5ff, #13293dff, #c9f9ffff, #f0ff1dff, #5e5c6cff);
+$gradient-bottom-right: linear-gradient(135deg, #039be5ff, #13293dff, #c9f9ffff, #f0ff1dff, #5e5c6cff);
+$gradient-top-left: linear-gradient(225deg, #039be5ff, #13293dff, #c9f9ffff, #f0ff1dff, #5e5c6cff);
+$gradient-bottom-left: linear-gradient(315deg, #039be5ff, #13293dff, #c9f9ffff, #f0ff1dff, #5e5c6cff);
+$gradient-radial: radial-gradient(#039be5ff, #13293dff, #c9f9ffff, #f0ff1dff, #5e5c6cff);
